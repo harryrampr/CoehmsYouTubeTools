@@ -1,0 +1,39 @@
+\documentclass[landscape,10pt]{article}
+\thispagestyle{empty}
+% 1 inch = 72px, 72px= 72.27pt
+\usepackage[paperwidth=1284.80pt,paperheight=722.70pt,lmargin=60pt,rmargin=0pt,tmargin=160pt,bmargin=0pt,driver=xetex]{geometry}
+\setlength\parindent{0pt}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+%\setmainfont[SizeFeatures={Size=48}]{OpenSans-Bold}
+%\setmainfont[SizeFeatures={Size=48}]{OpenSans-ExtraBold}
+\setmainfont[SizeFeatures={Size=48}]{Heebo-Black}
+%\setmainfont[SizeFeatures={Size=48}]{Heebo-ExtraBold}
+%\setmainfont[SizeFeatures={Size=48}]{Khula-ExtraBold}
+%\setmainfont[SizeFeatures={Size=48}]{Raleway-Black}
+%\setmainfont[SizeFeatures={Size=48}]{Montserrat-ExtraBold}
+\linespread{4.5}
+\usepackage[some,top]{background}
+\usepackage{graphicx}
+\graphicspath{ {../../common_images/thumbnails/} }
+\begin{document}
+  \color{white}
+  \SetBgOpacity{1}
+  %\SetBgPosition{current page.north}
+  \SetBgScale{1}
+  \SetBgContents{\includegraphics[scale=1]{asamblea_thumbnail_1.png}}
+  \newpage
+  \BgThispage
+  %\noindent\fcolorbox{red}{gray}{%
+    \begin{minipage}[t][310pt][c]{725pt}
+      \begin{flushleft}
+        %\uppercase{}
+        %\uppercase{abcde fghij klmno pqrst uvwxyz}
+        %\uppercase{abcde fghij klmno pqrst uvwxyz}
+        %\uppercase{abcde fghij klmno pqrst uvwxyz}
+        %\uppercase{abcde fghij klmno pqrst uvwxyz}
+        %\uppercase{La Salvación Que Dios Ha Ido Realizando En Nuestras Vidas}
+      \end{flushleft}
+    \end{minipage}
+  %}%
+\end{document}
